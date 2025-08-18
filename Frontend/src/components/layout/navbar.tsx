@@ -11,6 +11,8 @@ const Navbar = () => {
           <li><Link to="/products">Productos</Link></li>
           <li><Link to="/about">Quiénes Somos</Link></li>
           <li><Link to="/contact">Contacto</Link></li>
+          <li><Link to="/login">Iniciar Sesión</Link></li>
+          <li><Link to="/register">Registrarse</Link></li>
         </ul>
         <button className="p-2 border rounded-lg md:hidden">☰</button>
       </nav>
